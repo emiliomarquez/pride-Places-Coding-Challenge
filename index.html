@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pride Places Coding Challenge</title>
   <link rel="icon" href="./images/favicon.ico">
+  <link rel="stylesheet" href="./styles/main.css">
+
   <script src="./scripts/fetchTitles.js"></script>
 
 </head>
@@ -15,7 +17,16 @@
 
   <main>
 
-    <p id="titles"></p>
+    <section id="titles"></section>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="modal-text"></p>
+      </div>
+    </div>
       
   </main>
 
